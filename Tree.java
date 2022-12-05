@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 import java.math.*;
-
+// So From Tommmorow Onwards we will be going to Learn about Trees in Details
 public class Tree {
 	Node root;
 
@@ -10,6 +10,9 @@ public class Tree {
 		int value;
 		Node left;
 		Node right;
+
+		public Node() {
+		}
 
 		public Node(int v) {
 			value = v;
@@ -19,6 +22,6 @@ public class Tree {
 	}
 
 	public static void main(String[] args) {
-
+		
 	}
 }
